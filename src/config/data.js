@@ -1,7 +1,11 @@
 
 const MAIN_TITLE = "Foods  heaven..."
 
+
+
 const TAG_LINE ="best food in town"
+
+
 
 const THEME = {
     main:"#C0C78C",
@@ -39,4 +43,13 @@ const PRODUCTS =[
              isveg:true
     }]
     
-    export {PRODUCTS,MAIN_TITLE , TAG_LINE ,THEME}
+
+    const PERSONS =[
+      {
+        imgUrl:"https://img.freepik.com/free-photo/smiling-cute-female-student-casual-shirt_176420-18233.jpg",
+             title:"prajakta"  ,
+             description:"BCS (bachlors of computer science) and PR manager",
+             
+      }
+    ]
+    export {PRODUCTS,MAIN_TITLE , TAG_LINE ,THEME }

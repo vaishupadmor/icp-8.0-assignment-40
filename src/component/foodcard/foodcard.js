@@ -22,4 +22,23 @@ function foodcard({imgUrl,title,description ,price}) {
   )
 }
 
-export default foodcard
+function Staffinfo({imgUrl,title,description }) {
+  return (
+    <div className="food-card">
+        <img
+        src={imgUrl}
+        className='food-card-img'
+        alt='food'/>
+        <h1 className='food-card-name'> {title}</h1>
+        <p> {description}</p>
+        
+
+        
+        <button className='food-card-button'> follow us</button>
+        
+    </div>
+  )
+}
+
+export default foodcard;
+export {Staffinfo}
