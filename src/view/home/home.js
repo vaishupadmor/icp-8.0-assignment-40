@@ -1,8 +1,10 @@
 import React from 'react'
 import Navbar from "./../../component/navbar/navbar"
 import homeimg from "./../home/home-1.jpg"
+import Foodcard from "./../../component/foodcard/foodcard"
 import Footer from "./../../component/footer/footer"
 import "./home.css"
+import { PRODUCTS,MAIN_TITLE ,TAG_LINE ,THEME} from '../../config/data'
 
 
 function home() {
@@ -27,7 +29,7 @@ function home() {
         imgUrl={foodItem.imgUrl}
          title={foodItem.title}
          description={foodItem.description}
-         isveg={foodItem.isveg}
+         
          price={foodItem.price}
     />
   })

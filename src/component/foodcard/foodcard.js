@@ -1,9 +1,8 @@
 import React from 'react'
 import "./foodcard.css"
-import vegicon from "./veg.png"
-import nonveg from "./non-veg.png"
 
-function foodcard({imgUrl,title,description ,isveg,price}) {
+
+function foodcard({imgUrl,title,description ,price}) {
   return (
     <div className="food-card">
         <img
@@ -12,7 +11,7 @@ function foodcard({imgUrl,title,description ,isveg,price}) {
         alt='food'/>
         <h1 className='food-card-name'> {title}</h1>
         <p> {description}</p>
-        <img src={isveg ? vegicon : nonveg} className='food-card-icon' alt='veg icon'/>
+        
 
         {price ? <p className='food-card-price'>
           $ {price}
