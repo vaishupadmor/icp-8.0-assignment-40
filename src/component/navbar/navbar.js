@@ -1,12 +1,15 @@
 import React from 'react'
 import "./navbar.css"
 import {Link } from "react-router-dom"
+import dessertimg from "./close-up-fancy-dessert.jpg"
 
 function navbar() {
   return (
 
     <div className='navbar'>
-       <span className='brand-name'>  desserts</span> 
+
+      <img src={dessertimg} style={{height:40}}/>
+       <span className='brand-name'  >  desserts</span> 
 
         <div className='navbar-link'>
 
@@ -18,9 +21,7 @@ function navbar() {
          About
          </Link>
 
-         <Link to='/contact' className='link'> 
-         Contact
-         </Link>
+         
 
         </div>
     </div>

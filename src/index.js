@@ -17,10 +17,7 @@ const router =createBrowserRouter([{
     path:'/about',
     element:<About/>,
 },
-{
-    path:'/contact',
-    element:<Contact/>,
-}])
+])
 
 root.render(<RouterProvider router={router}/>)
 //const currentpath = window.location.pathname;
