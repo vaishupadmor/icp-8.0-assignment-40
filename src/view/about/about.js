@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from "./../../component/navbar/navbar"
-import aboutimg from "./../../view/about/about.jpg"
+import aboutimg from "./../about/about.jpg"
 import "./../../component/footer/footer"
 
 function about() {

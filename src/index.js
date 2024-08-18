@@ -1,9 +1,9 @@
 import {createRoot} from "react-dom/client";
  import ".//index.css"
 
-import Home from "./../src/view/home/home/home"
-import About from "./../src/view/about/about"
-import Contact from "./../src/view/contact/contact/contact"
+import Home from "./view/home/home"
+import About from "./view/about/about"
+
 import { createBrowserRouter,RouterProvider } from "react-router-dom";
 
 const root = createRoot(document.getElementById("root"));
